@@ -12,5 +12,5 @@ return [
     ],
     'shop' => [
         'shop_id' => env('ETSY_SHOP_ID'),
-    ]
+    ],
 ];

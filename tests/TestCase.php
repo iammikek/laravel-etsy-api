@@ -2,9 +2,9 @@
 
 namespace Automica\LaravelEtsyApi\Tests;
 
+use automica\LaravelEtsyApi\LaravelEtsyApiServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use automica\LaravelEtsyApi\LaravelEtsyApiServiceProvider;
 
 class TestCase extends Orchestra
 {
