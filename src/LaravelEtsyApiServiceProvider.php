@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace Automica\LaravelEtsyApi;
 
+use Automica\LaravelEtsyApi\Commands\LaravelEtsyApiCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Automica\LaravelEtsyApi\Commands\LaravelEtsyApiCommand;
 
 class LaravelEtsyApiServiceProvider extends PackageServiceProvider
 {
