@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "iammikek/laravel-etsy-api",
+    "description": "This is my package laravel-etsy-api",
     "keywords": [
-        ":vendor_name",
+        "Mike Karthauser",
         "laravel",
-        ":package_slug"
+        "laravel-etsy-api"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/iammikek/laravel-etsy-api",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Mike Karthauser",
+            "email": "mike@automica.io",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "automica\\LaravelEtsyApi\\": "src/",
+            "automica\\LaravelEtsyApi\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/",
+            "automica\\LaravelEtsyApi\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
@@ -63,10 +63,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "automica\\LaravelEtsyApi\\LaravelEtsyApiServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "LaravelEtsyApi": "automica\\LaravelEtsyApi\\Facades\\LaravelEtsyApi"
             }
         }
     },
