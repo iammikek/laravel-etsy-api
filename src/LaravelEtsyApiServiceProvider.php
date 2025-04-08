@@ -1,6 +1,8 @@
 <?php
 
-namespace automica\LaravelEtsyApi;
+declare(strict_types=1);
+
+namespace Automica\LaravelEtsyApi;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;

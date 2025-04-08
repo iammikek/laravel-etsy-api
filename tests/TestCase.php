@@ -1,6 +1,6 @@
 <?php
 
-namespace automica\LaravelEtsyApi\Tests;
+namespace Automica\LaravelEtsyApi\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;

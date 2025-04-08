@@ -1,6 +1,8 @@
 <?php
 
-namespace automica\LaravelEtsyApi\Database\Factories;
+declare(strict_types=1);
+
+namespace Automica\LaravelEtsyApi\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 

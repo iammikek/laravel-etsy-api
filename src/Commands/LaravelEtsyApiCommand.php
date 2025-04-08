@@ -1,6 +1,8 @@
 <?php
 
-namespace automica\LaravelEtsyApi\Commands;
+declare(strict_types=1);
+
+namespace Automica\LaravelEtsyApi\Commands;
 
 use Illuminate\Console\Command;
 

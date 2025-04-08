@@ -1,5 +1,7 @@
 <?php
 
-namespace automica\LaravelEtsyApi;
+declare(strict_types=1);
+
+namespace Automica\LaravelEtsyApi;
 
 class LaravelEtsyApi {}

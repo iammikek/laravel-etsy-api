@@ -1,6 +1,8 @@
 <?php
 
-namespace automica\LaravelEtsyApi\Facades;
+declare(strict_types=1);
+
+namespace Automica\LaravelEtsyApi\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
