@@ -6,7 +6,7 @@ namespace Automica\LaravelEtsyApi;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use automica\LaravelEtsyApi\Commands\LaravelEtsyApiCommand;
+use Automica\LaravelEtsyApi\Commands\LaravelEtsyApiCommand;
 
 class LaravelEtsyApiServiceProvider extends PackageServiceProvider
 {
